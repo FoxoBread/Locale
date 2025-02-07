@@ -1767,6 +1767,12 @@
         "Settings.LaserSettings.ShowInDesktop": "Pokaż lasery w trybie stacjonarnym",
         "Settings.LaserSettings.ShowInDesktop.Description": "Po włączeniu, laser będzie w pełni wyświetlany w widoku pierwszoosobowym w trybie stacjonarnym.",
 
+        "Settings.EditSettings": "Ustawienia edycji",
+        "Settings.EditSettings.ConfirmComponentDestroy": "Potwierdź usunięcie komponentów",
+        "Settings.EditSettings.ConfirmComponentDestroy.Description": "Kiedy włączone, usunięcie komponentów będzie wymagało potwierdzenia w inspektorze sceny.",
+        "Settings.EditSettings.ConfirmSlotDestroy": "Potwierdź usunięcie slotów",
+        "Settings.EditSettings.ConfirmSlotDestroy.Description": "Kiedy włączone, usunięcie slotów używając narzędzia developerskiego będzie wymagało potwierdzenia.",
+
         "Settings.CursorSettings": "Ustawienia kursora",
 
         "Settings.CursorSettings.BaseCursorSize": "Podstawowy rozmiar kursora",
