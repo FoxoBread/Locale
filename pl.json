@@ -757,6 +757,8 @@
 
         "Tools.GeometryLineBrush.Name": "Pędzel linii geometrycznej",
 
+        "Tools.MeshPlaneBrush.AddHole": "Dodaj otwór",
+
         "Tools.Dev.Name": "Narzędzie Deweloperskie",
         "Tools.Dev.CreateNew": "Stwórz Nowy...",
         "Tools.Dev.Selection": "Zaznaczanie: {mode}",
