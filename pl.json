@@ -747,6 +747,9 @@
         "Undo.ExtractMaterialsFromHierarchy": "Wyciągnięcie Materiałów z Hierarchii",
         "Undo.BatchConvertMaterials": "Zbiorcze konwertowanie materiałów",
 
+        "Undo.AddListElement": "Dodaj element do listy",
+        "Undo.RemoveListElement": "Usuń element z listy",
+
         "Tools.Brush.ChangeColor": "Zmień kolor",
         "Tools.Brush.IncrementSize": "Zwiększ rozmiar",
         "Tools.Brush.DecrementSize": "Zmniejsz rozmiar",
