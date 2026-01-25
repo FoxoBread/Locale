@@ -2922,6 +2922,9 @@
         "Tutorial.MentorPanel.Title": "Potrzebujesz pomocy?",
         "Tutorial.MentorPanel.Content": "Poszukaj użytkowników, którzy mają tę plakietkę nad głową – poproś ich o pomoc, są tu dla <i>Ciebie</i>!",
 
+        "Tutorial.HelpTabPanel.Title": "Potrzebujesz pomocy?",
+        "Tutorial.HelpTabPanel.Content": "Na tablicy znajdujesz zakładkę z informacjami o {appName}!",
+
         "Hints.Spawn.InitialMovementDesktop": "Użyj klawiszy ruchu, aby chodzić!",
         "Hints.Spawn.InitialMovementVR": "Użyj joysticków, aby chodzić!",
         "Hints.Spawn.InitialMovementVRNoButtons": "Korzystaj z trackpadów, żeby chodzić!",
