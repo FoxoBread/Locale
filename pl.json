@@ -753,6 +753,7 @@
         "Tools.Brush.ChangeColor": "Zmień kolor",
         "Tools.Brush.IncrementSize": "Zwiększ rozmiar",
         "Tools.Brush.DecrementSize": "Zmniejsz rozmiar",
+        "Tools.Brush.FinishStrokeGroup": "Zakończ grupę pociągnięć",
 
         "Tools.GeometryLineBrush.Name": "Pędzel linii geometrycznej",
 
