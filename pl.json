@@ -235,6 +235,10 @@
         "World.Config.CleanupAssets": " Oczyść nieużywane zasoby:",
         "World.Config.CleanupInterval": "Interwał czyszczenia (sekundy):",
 
+        "World.Config.ResoniteLinkHeader" : "ResoniteLink",
+        "World.Config.ResoniteLinkOff" : "ResoniteLink wyłączony",
+        "World.Config.ResoniteLinkPort" : "ResoniteLink włączony na porcie {port}",
+
         "World.Actions.StartSession": "Rozpocznij Sesję",
         "World.Actions.Join": "Dołącz",
         "World.Actions.Focus": "Pokaż",
@@ -270,6 +274,8 @@
         "World.Actions.ModifyMetadata": "Edytuj Metadane",
         "World.Actions.GetSessionOrb": "Zdobądź Kulę Sesji",
         "World.Actions.CopySessionURL": "Skopiuj URL Sesji",
+
+        "World.Actions.EnableResoniteLink" : "Włącz ResoniteLink",
 
         "World.Indicator.NoData": "Brak Danych",
         "World.Indicator.LocalWorld": "Lokalna Maszyna",
