@@ -12,6 +12,7 @@ Permissions.SavingDisabledForItem
 Undo.AddListElement  
 Undo.RemoveListElement  
 Tools.Brush.FinishStrokeGroup  
+Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 CreateNew.Editor.TexturePackingWizard  
 CreateNew.Editor.TextureUnpackingWizard  
@@ -35,6 +36,7 @@ Settings.RendererDecouplingSettings.ForceDecouple
 Settings.RendererDecouplingSettings.ForceDecouple.Description  
 Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds  
 Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.ReflectionProbe.OnChangesRenderCount  
 Inspector.SkinnedMesh.ResetBonesToBindPoses  
 Inspector.Texture.IsolateR  
@@ -43,6 +45,7 @@ Inspector.Texture.IsolateB
 Inspector.Texture.IsolateA  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.AI_GeneratedContent.Info  
 Inspector.Wizard.PackTexture  
 Inspector.Wizard.UnpackTexture  
 Inspector.Error  

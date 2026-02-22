@@ -635,6 +635,7 @@ Tools.Brush.IncrementSize
 Tools.Brush.DecrementSize  
 Tools.Brush.FinishStrokeGroup  
 Tools.GeometryLineBrush.Name  
+Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  
 Tools.Dev.CreateNew  
@@ -1821,6 +1822,7 @@ Inspector.Member.RemoveBlendshape
 Inspector.Member.SplitBlendshape.X  
 Inspector.Member.SplitBlendshape.Y  
 Inspector.Member.SplitBlendshape.Z  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.Mesh.StatsHeader  
@@ -2015,6 +2017,7 @@ Inspector.CharacterController.Warning
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.ParticleStyle.CommonTransitions  

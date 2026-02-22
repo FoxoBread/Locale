@@ -35,6 +35,7 @@ Notifications.ReceivedInviteRequestForwarded
 Undo.AddListElement  
 Undo.RemoveListElement  
 Tools.Brush.FinishStrokeGroup  
+Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 Tools.GrabbableSetter.Name  
 Tools.CharacterCollider.Name  
@@ -184,6 +185,7 @@ Settings.ImportSettings.WorldUrls.Description
 Settings.ImportSettings.NetworkUrls  
 Settings.ImportSettings.NetworkUrls.Description  
 Settings.MysterySettings  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
 Inspector.Texture3D.SpawnVisualizer  
 Inspector.Skybox.SetActiveSkybox  
@@ -200,6 +202,7 @@ Inspector.GaussianSplat.ColorByIndex
 Inspector.GaussianSplat.ReorderMorton  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.Wizard.PackTexture  

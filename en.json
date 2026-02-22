@@ -1,6 +1,6 @@
 {
     "localeCode": "en",
-    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi", "WattleFoxxo", "StiefelJackal", "RueShejn", "NepuShiro", "Choco", "Modern", "Xau", "Charizmare", "bredo"],
+    "authors": ["Frooxius", "Enverex", "rampa_3", "Melnus", "dfgHiatus", "Earthmark", "Ryuvi", "Nammi", "WattleFoxxo", "StiefelJackal", "RueShejn", "NepuShiro", "Choco", "Modern", "Xau", "Charizmare", "bredo", "alizard"],
     "messages": {
 
         "General.OK": "OK",
@@ -757,6 +757,7 @@
 
         "Tools.GeometryLineBrush.Name": "Geometry Line Brush",
 
+        "Tools.MeshPlaneBrush.Name": "Mesh Plane Brush",
         "Tools.MeshPlaneBrush.AddHole": "Add a hole",
 
         "Tools.Dev.Name": "Development Tool",
@@ -1433,7 +1434,7 @@
         "Settings.MovementSettings.TurningDeadzone": "Turning deadzone",
         "Settings.MovementSettings.TurningDeadzone.Description": "This setting can be used to correct drift and prevent accidental turning when moving and turning on the same joystick. Increasing this value will require you to tilt your joystick further to start turning.",
         "Settings.MovementSettings.MovementExponent": "Movement exponent",
-        "Settings.MovementSettings.MovementExponent.Description": "Use this to control the curve response when moving. You can use this to either start moving slow at first and then quickly ramp up or start moving faster immediately, depending whether the value is above or below 1.0",
+        "Settings.MovementSettings.MovementExponent.Description": "Use this to control the curve response when moving. You can use this to either start moving slow at first and then quickly ramp up or start moving faster immediately, depending whether the value is above or below 1.0.",
 
         "Settings.GrabbingSettings": "Grabbing Settings",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Default Hand Grab Type",
@@ -1478,7 +1479,7 @@
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "When enabled, you will receive haptic feedback from avatars and items in the world on your controllers and other haptic devices.",
 
         "Settings.GeneralVRSettings.UseVRHotswitching": "VR Hotswitching",
-        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "When enabled, you will automatically be switched between VR and desktop mode when you take your VR headset on or off",
+        "Settings.GeneralVRSettings.UseVRHotswitching.Description": "When enabled, you will automatically be switched between VR and desktop mode when you take your VR headset on or off.",
 
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Hand Position Smoothing",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Hand Rotation Smoothing",
@@ -1535,7 +1536,7 @@
         "Settings.ViveHandTrackingSettings.SnapDistance": "Controller snapping distance",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "When your hands are within the range of controllers, they will automatically snap to them and use the hand tracking data from the controller itself, instead of the headset cameras. This controls the distance at which the hands will snap.",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Track hands while using controllers",
-        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "When hands are snapped to controllers, this will still pose the fingers using data coming from the VR headset cameras",
+        "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "When hands are snapped to controllers, this will still pose the fingers using data coming from the VR headset cameras.",
 
         "Settings.TrackerSettings": "Tracker Settings",
         "Settings.TrackerSettings.UseTrackers": "Use Trackers",
@@ -1819,7 +1820,7 @@
         "Settings.NotificationSettings.InviteRequest": "Invite Requests",
         "Settings.NotificationSettings.InviteRequest.Description": "This controls if you get notifications when you receive an invite request that you can respond to.",
         "Settings.NotificationSettings.ContactRequest": "Contact Requests",
-        "Settings.NotificationSettings.ContactRequest.Description": "This controls what notifications you get when you receive a contact request from someone",
+        "Settings.NotificationSettings.ContactRequest.Description": "This controls what notifications you get when you receive a contact request from someone.",
         "Settings.NotificationSettings.ContactSessionStarted": "New Contact Sessions",
         "Settings.NotificationSettings.ContactSessionStarted.Description": "This controls what notifications you get when a new session is started by one of your contacts.",
         "Settings.NotificationSettings.PublicSessionStarted": "New Public Sessions",
@@ -1949,7 +1950,7 @@
         "Settings.InteractiveCameraFramingSettings.FirstPersonPitch": "First person pitch angle",
         "Settings.InteractiveCameraFramingSettings.FirstPersonPitch.Description": "In first person mode, use this to pitch the camera up and down.",
         "Settings.InteractiveCameraFramingSettings.FirstPersonRoll": "First person roll angle",
-        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "In first person mode, this controls the sideways rotation of the camera - tilting of left and right",
+        "Settings.InteractiveCameraFramingSettings.FirstPersonRoll.Description": "In first person mode, this controls the sideways rotation of the camera - tilting of left and right.",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset": "First person offset",
         "Settings.InteractiveCameraFramingSettings.FirstPersonOffset.Description": "Use this to move the camera offset in first person view relative to your eyes. This can be used if the avatar face geometry is clipping into the camera's view.",
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition": "Framing viewport position",
@@ -1991,7 +1992,7 @@
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "Enable this to use linear interpolation when moving between anchors instead of a smooth one. Linear interpolation starts and stops abruptly, but has a constant movement speed, regardless of the distance between anchors. This means that if anchors are further apart, it'll take longer for the camera to reach it.",
 
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "Spawn taken photos in world",
-        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "When you take photos using the interactive camera dialog, should they be spawned into the world? When disabled, they will only be saved to your documents or inventory (if autosave is configured)",
+        "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "When you take photos using the interactive camera dialog, should they be spawned into the world? When disabled, they will only be saved to your documents or inventory (if autosave is configured).",
 
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Motion blur",
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Should the camera render motion blur effect?",
@@ -2175,6 +2176,7 @@
         "Inspector.Member.SplitBlendshape.X": "Split Blendshape across X",
         "Inspector.Member.SplitBlendshape.Y": "Split Blendshape across Y",
         "Inspector.Member.SplitBlendshape.Z": "Split Blendshape across Z",
+        "Inspector.Member.SplitBlendshapeToStaticMesh": "Separate Blendshape into static mesh",
 
         "Inspector.ProceduralAsset.UpdateCount": "Update Count: {n}",
         "Inspector.ProceduralAsset.Error": "Error: {error}",
@@ -2415,6 +2417,8 @@
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>WARNING!</size></color><br>It is possible to use this component to interact with references by using their IDs. This process is commonly called 'Ref Hacking'.<br><br><b>Before</b> you do this, please understand that this is <b>not</b> supported and may break at any time. Do not rely on this functionality for your creations.",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>WARNING!</size></color><br>FacetPresets will automatically upgrade their contents when we publish new versions of those presets. If you're making a custom version, we recommend deleting this component.",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>WARNING!</size></color><br> This component is not designed as a security/asset theft protection system. It is intended to be used for cases where you wish to block the easier methods of saving for gameplay or design reasons. It can easily be bypassed and it will not be made more secure under any circumstances.",
+
+        "Inspector.AI_GeneratedContent.Info": "This component is intended to flag content generated by generative AI. It's recommended to put it at the root of the objects which are generated through these methods. This will automatically add tags when the item is saved as well as when the world is saved with those components present, which will allow this content to be filtered.",
 
         "Inspector.ParticleSystem.BasicInfo": "Particles: {count}, FPS: {fps}, Simulation Time: {time}, Submit Time: {renderSubmitTime}, Render allocations: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Trails: {trailCount} (capacity: {trailCapacity}), Trail Point Capacity: {trailPointCapacity}, Allocations: {allocationCount}",

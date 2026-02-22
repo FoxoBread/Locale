@@ -69,6 +69,7 @@ Undo.AddListElement
 Undo.RemoveListElement  
 Tools.Brush.FinishStrokeGroup  
 Tools.GeometryLineBrush.Name  
+Tools.MeshPlaneBrush.Name  
 Tools.MeshPlaneBrush.AddHole  
 Tools.Dev.Name  
 Tools.Dev.Selection.Single  
@@ -853,6 +854,7 @@ Inspector.Member.RemoveBlendshape
 Inspector.Member.SplitBlendshape.X  
 Inspector.Member.SplitBlendshape.Y  
 Inspector.Member.SplitBlendshape.Z  
+Inspector.Member.SplitBlendshapeToStaticMesh  
 Inspector.ProceduralAsset.UpdateCount  
 Inspector.ProceduralAsset.Error  
 Inspector.GaussianSplatRenderer.GeneratePointCloudCollider  
@@ -881,6 +883,7 @@ Inspector.DataPreset.SetValues
 Inspector.DataPreset.AddAllChildren  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
 Inspector.Wizard.PackTexture  
