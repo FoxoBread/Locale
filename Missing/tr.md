@@ -86,6 +86,8 @@ World.Connection.LNL.NATPunchthrough
 World.Connection.LNL.Relay  
 World.Connection.SteamNetworkingSockets  
 World.Connection.TCP  
+World.Connection.NoProtocolsAvailable  
+World.Connection.AllProtocolsFailed  
 World.Error.OnlyContactsOfContacts  
 World.Error.FailedToConnect  
 World.Error.InvalidAddress  
@@ -202,6 +204,10 @@ Register.MissingPassword
 Register.MissingPassword.Description  
 Register.InvalidPassword  
 Register.InvalidPassword.Description  
+Register.InvalidPromoCode  
+Register.InvalidPromoCode.Description  
+Register.ExpiredPromoCode  
+Register.ExpiredPromoCode.Description  
 Register.EmailAlreadyRegistered  
 Register.EmailAlreadyRegistered.Description  
 Register.UsernameAlreadyRegistered  
@@ -214,6 +220,12 @@ Recovery.IncorrectEmail
 Recovery.IncorrectEmail.Description  
 Recovery.NoPasswordSetup  
 Recovery.NoPasswordSetup.Description  
+Register.TooManyRegistrations  
+Register.TooManyRegistrations.Description  
+Register.StatusCheckError  
+Register.StatusCheckError.Description  
+Register.ManualLoginRequired  
+Register.ManualLoginRequired.Description  
 Register.UnknownError  
 Register.UnknownError.Description  
 Account.Saml2  
@@ -222,6 +234,7 @@ Account.BirthDay
 Account.BirthYear  
 Account.PoliciesAgreement  
 Account.AlternateMethods  
+Account.PromoCode  
 Account.Saml2.Title  
 Account.Saml2.Select  
 Account.Saml2.LoggingIn  
@@ -250,6 +263,7 @@ Account.TOTP.Deactivate.Deactivate
 Account.TOTP.Deactivate.Deactivating  
 Account.TOTP.Message.DeactivationComplete  
 Account.Type.Standard  
+Account.Type.Promo  
 Account.Type.Business  
 Account.Type.Patreon  
 Account.Type.Stripe  
@@ -272,6 +286,7 @@ Permissions.NotAllowedToSpawn
 Permissions.NotAllowedToSave  
 Permissions.NotAllowedToSwapAvatar  
 Permissions.SavingDisabledForItem  
+Permissions.NotAllowedToOpen  
 Contacts.RevokeInvite  
 Contacts.RequestInvite  
 Contacts.Unblocked  
@@ -880,6 +895,8 @@ Settings.DashSettings.DashCurvature
 Settings.DashSettings.DashCurvature.Description  
 Settings.DashSettings.OpenCloseSpeed  
 Settings.DashSettings.OpenCloseSpeed.Description  
+Settings.DashSettings.ScreenSwitchSpeed  
+Settings.DashSettings.ScreenSwitchSpeed.Description  
 Settings.DashSettings.AllowReplacingSettings  
 Settings.DashSettings.AllowReplacingSettings.Description  
 Settings.NotificationSettings  
@@ -921,6 +938,8 @@ Settings.FacetAnchorsSettings.FacetAnchorToggle
 Settings.FacetAnchorsSettings.FacetAnchorToggle.Description  
 Settings.FacetAnchorsSettings.ShowContainerBackground  
 Settings.FacetAnchorsSettings.ShowContainerBackground.Description  
+Settings.LaserSettings.AlwaysPrioritizeUserspace  
+Settings.LaserSettings.AlwaysPrioritizeUserspace.Description  
 Settings.LaserSettings.SmoothSpeed  
 Settings.LaserSettings.SmoothSpeed.Description  
 Settings.LaserSettings.ModulateStartAngle  
